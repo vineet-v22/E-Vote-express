@@ -1,0 +1,99 @@
+.elections-box {
+    color: rgb(195, 161, 111);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 90vh;
+    width: 55%;
+    justify-content: space-between;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* padding: 40px 20px; */
+    padding-bottom: 50px;
+
+    & h2 {
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    & .elections {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 4px solid rgb(195, 161, 111);
+        border-radius: 7px;
+        /* min-height: 25vh; */
+        margin: 10px 0;
+        padding: 5px 0;
+        /* width: 50%; */
+    }
+
+    & .election-format {
+        display: flex;
+        border-top: 3px solid rgb(195, 161, 111);
+        font-size: 2em;
+        padding: 5px;
+
+        & .eid {
+            width: 20%;
+            text-align: center;
+        }
+
+        & .ename {
+            width: 70%;
+            text-align: center;
+        }
+
+        & .edate {
+            width: 20%;
+            text-align: center;
+        }
+    }
+
+    & .election {
+        border-top: 2px solid rgb(195, 161, 111);
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5em;
+        padding: 10px;
+
+        & .eid {
+            width: 20%;
+            text-align: center;
+        }
+
+        & .ename {
+            width: 70%;
+            text-align: center;
+        }
+
+        & .edate {
+            width: 20%;
+            text-align: center;
+        }
+    }
+
+}
+
+.image-box {
+    width: 45%;
+
+    & img {
+        /* border: 2px solid white; */
+        width: 100%;
+        position: relative;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+button.create-election {
+    margin-top: 80px;
+    margin-bottom: 13px;
+    width: 55%;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 8px;
+    font-size: 2em;
+    background-color: rgb(185, 151, 101);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Martian+Mono:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Martian Mono', monospace;
+    padding: 0 4.8rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+
+    .logo {
+        height: 9em;
+        border-radius: 0.5em;
+        cursor: pointer;
+    }
+
+    .navbar-list {
+        display: flex;
+        list-style: none;
+        gap: 4.8rem;
+
+        .navbar-link {
+            border-radius: 5px;
+            padding: 2px;
+            transition: 1s;
+
+            &:link,
+            &:visited {
+                /* text-transform: uppercase; */
+                display: inline-block;
+                text-decoration: none;
+                font-size: 2rem;
+                font-weight: 500;
+                color: rgb(195, 161, 111);
+                transition: all 0.3s;
+            }
+
+            &:hover,
+            &:active {
+                background-color: rgb(195, 161, 111);
+                color: #111;
+            }
+
+        }
+    }
+}

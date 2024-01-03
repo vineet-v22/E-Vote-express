@@ -1,0 +1,57 @@
+h1,
+h2 {
+    color: rgb(195, 161, 111);
+    text-align: center;
+    margin: 10px 0;
+    font-size: x-large;
+}
+
+.voting {
+    color: rgb(195, 161, 111);
+    min-height: 80vh;
+    align-items: center;
+
+
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(195, 161, 111);
+    font-size: 1.9em;
+    color: rgb(195, 161, 111);
+    margin: 20px auto;
+    padding: 10px;
+    min-width: 30%;
+
+    & th {
+        padding: 20px;
+        text-align: center;
+    }
+
+    & td {
+        padding: 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+
+        & input[type='radio'] {
+            accent-color: rgb(195, 161, 111);
+            transform: scale(2);
+        }
+
+
+    }
+
+    & button {
+        background-color: rgb(195, 161, 111);
+        padding: 10px 20px;
+        display: inline;
+        width: 100%;
+        margin: 10px auto;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+}
+
+.results {
+    min-height: 90vh;
+}

@@ -1,0 +1,44 @@
+section.admin {
+    display: block;
+    color: rgb(195, 161, 111);
+
+    & h1 {
+        text-align: center;
+    }
+
+    & table {
+        & button {
+            padding-bottom: 20px;
+        }
+    }
+
+    & .container {
+        & h1 {
+            border-bottom: 1.5px solid rgb(195, 161, 111);
+            margin: auto;
+        }
+
+        margin: auto;
+        width: 80vw;
+        padding: 5px;
+        border: 2px solid rgb(195, 161, 111);
+        border-radius: 5px;
+        height: auto;
+
+        & p {
+            text-align: center;
+            font-size: 2em;
+            margin: auto;
+            word-wrap: break-word;
+        }
+    }
+
+    & button.request {
+        width: 80vw;
+        font-size: 1.5em;
+        width: 50%;
+        display: block;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+}

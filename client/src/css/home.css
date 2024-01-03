@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+section {
+    /* border: 2px solid green; */
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* background-color: #222; */
+
+    /* background: radial-gradient(#333, #111); */
+
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(20, 0, 0, 0.5)), url(./backg.jpg); */
+
+
+    & .quote {
+        color: rgb(195, 161, 111);
+        /* border: 2px solid red; */
+        width: 56vw;
+        /* width: auto; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & h1 {
+            font-size: 4em;
+            font-weight: 700;
+            /* border: 2px solid black; */
+            text-align: center;
+        }
+
+        & p {
+            /* border: 2px solid orange; */
+            font-size: 2.5em;
+            text-align: center;
+            margin: 2em 0;
+            line-height: 1.5em;
+        }
+    }
+
+    & .picture {
+        /* border: 2px solid blue; */
+        /* display: flex;
+        align-items: center; */
+        width: 44vw;
+        overflow: hidden;
+
+        & img {
+            /* border: 2px solid white; */
+            width: 100%;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.past-election {
+    min-height: 90vh;
+    color: rgb(195, 161, 111);
+}

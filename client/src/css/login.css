@@ -1,0 +1,11 @@
+.login-box {
+    margin: auto;
+    min-height: 25em;
+
+    & p {
+        & a {
+            color: rgb(195, 161, 111);
+            margin: 0 8px;
+        }
+    }
+}
